@@ -1,4 +1,4 @@
-# CAPSTONE DEMO README
+# Identifying fraudulent transactions on the Blockchain
 
 ### Describe your project (big idea)
 
