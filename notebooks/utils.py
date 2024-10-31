@@ -1,6 +1,3 @@
-
-
-
 class Utils: 
   # Define reusable code
   def cols_heads_tails(df):
