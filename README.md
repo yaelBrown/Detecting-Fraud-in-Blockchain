@@ -16,9 +16,14 @@ This will help break some of the anonminity associated with people who own the w
 ## Describe your goal
 The goal is to be able to classify transactions based on amount, and wallet addresses if it is possible that it was used for fraudulent activities. In order to do this a model would need to be built on previously recognized fraudulent data and to identify a pattern to these transactions and legitamite transaction data. 
 
-
 ## Describe your data
 The data used is transactions history from 2016 - end of 2018. Also the fraudulent data set is the known fraudulent transactions from that time period and the price data. 
+
+<p align="center">
+  <img src="./assets/images/figures/count_of_transactions_by_year.png" width="400px"><br/>
+  <img src="./assets/images/figures/average_close_by_year.png" width="400px"><br/>
+  <img src="./assets/images/figures/average_income_by_year.png" width="400px"><br/>
+</p>
 
 ## Describe your work (models, analysis, EDA, etc.)
 To be determined. 
@@ -28,3 +33,8 @@ To be evaluated.
 
 ## Party!
 Yay, party !
+<p align="center">
+  <img src="./assets/images/gains-moon.gif"><br/>
+  <img src="./assets/images/funny_fall.gif">
+  <img src="./assets/images/ponke-ponkesol.gif">
+</p>
