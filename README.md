@@ -1,10 +1,8 @@
+<h1 align="center">Identifying Fraudulent Transactions on the Blockchain</h1>
+
 <p align="center">
   <img src="./assets/images/readme_btc_thief.png" width="500px">
 </p>
-
-<br/>
-  <h1 align="center">Identifying Fraudulent Transactions on the Blockchain</h1>
-<br/>
 
 ## Describe your project (big idea)
 The big idea is to identify possible fraudulent transactions made on the bitcoin network. These transactions would be a result from Randsomware attacks and/or other fraudulent transactions such as known purchases on black market marketplaces. 
