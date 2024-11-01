@@ -1,0 +1,84 @@
+Slides outline
+- title
+
+
+- Non-technical overview of the subject area and problem statement / opportunity you identified
+	- Identify wallets and transactions to or from those wallets that were used in fraudulent transactions
+	- Fraudulent transactions are classified as transactions from victims in randomsware attacks, black market place payments for illegal goods.
+	- Having a model trained and actively reviewing transactions on the blockchain, this could aid law enforcement and tip them off to possible fraudulent transactions.
+	- This would beneficial esspecially if the blockchain scales or technology evolves to handle more transactions. 
+
+- Overview of your proposed vision using data science
+	- Collect transaction data, known fraudulent transaction data, and daily price (close) data. 
+	- Combined to one data set. 
+	- Train a Logistic Regression model on the data. 
+	- Test it with possible transactions
+
+- Estimate of impact of solution. 
+	- To assist law enforcement in detecting fraudulent transactions
+	- Help trace bad actors to exchanges to help identify them
+
+- Intro to dataset
+	- Using transaction data, known fraud data, and coin price
+	- Combine the datasets and drop unnecessary columns from them. 
+	- Normalize the date format. (a column for month, day, year)
+
+	- Transaction dataset is a lot
+	- Only 93k rows for fraud dataset
+
+- Next steps in data processing, feature engineering and baseline modeling. 
+
+
+
+
+
+
+
+
+
+
+
+
+still gathering data
+making some plots of the data
+
+
+average price of fraudulent data (plot)
+
+where you are and where your going
+
+
+where did you get the data? 
+
+
+
+Intro:
+Bitcoin allows people to be anonymous people are able to trace who a certain user is based on the wallet address.
+
+Objective: Identify transactions that were made using fraudulent wallet addresses to help identify the user
+
+Impact:
+BitCoin security team and law enforcement trying to put a phase on the person making fraudulent transactions
+
+
+
+Data Dictionary for heist: 
+	Variable Information
+
+	Features
+	address: String. Bitcoin address.
+	year: Integer. Year.
+	day: Integer. Day of the year. 1 is the first day, 365 is the last day.
+	length: Integer.
+	weight: Float.
+	count: Integer.
+	looped: Integer.
+	neighbors: Integer.
+	income: Integer. Satoshi amount (1 bitcoin = 100 million satoshis).
+	label: Category String. Name of the ransomware family (e.g., Cryptxxx, cryptolocker etc) or white (i.e., not known to be ransomware).
+
+	https://archive.ics.uci.edu/dataset/526/bitcoinheistransomwareaddressdataset
+
+
+Example BTC address
+	bc1qzyda53xqwkqruex3mzwvpja04x23r572mygpgfc90qckdw2cwwaqr2h70u
