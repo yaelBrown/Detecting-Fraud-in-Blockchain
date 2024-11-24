@@ -24,10 +24,23 @@ The data used is transactions history from 2016 - end of 2018. Also the fraudule
 </p>
 
 ## Describe your work (models, analysis, EDA, etc.)
-To be determined. 
+After attaining the datasets, since there are a large number of transactions they would need to be filtered. They were filtered to the beginning date range of the heist dataset. (March, 2016) and then further sampled down to 80k transactions. 
+
+<p align="center">
+  <img src="./assets/images/figures/qty_tx.png">
+  <img src="./assets/images/figures/qty_tx_month_minus_1st.png">
+</p>
+
+Most of the transactions were on the first day. This would be because of the primary elections in the states. Typically political events in the states affect investor sentiment and that would lead to an increase of transactions for that day. 
 
 ## Describe your results
-To be evaluated. 
+The models used would be a classification model. However running a simple Logistic Regression model with the target variable being the flag column 'is_possible_fraud' resulted in a 99% accuracy. 
+
+<p align="center">
+  <img src="./assets/images/figures/confusion_matrix.png">
+</p>
+
+Ideally the model would need to classify if sender_address, destination_address, and amount of satoshi's could predict if this is possible fraud. So a multi-variable classification model would need to be researched to handle this or possibly running multiple logistic regression models on the different target variables. Further research would need to be conducted. 
 
 ## Party!
 Yay, party !
