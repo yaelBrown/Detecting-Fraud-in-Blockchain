@@ -30,3 +30,5 @@ Thumbs.db
 
 # Large data files
 *.parquet
+
+data/btc_trans_data/
