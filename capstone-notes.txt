@@ -1,1 +1,91 @@
 Create capstone environment for conda
+Add price to dataset 
+Create feature for (satoshi x btc_usd_price)
+
+
+
+
+
+
+the overall experiemental design that you are taking including how you will measure success
+
+how you will evaluate the models, 
+
+the caveats of your experiment, 
+
+the end user and the added value (this part could pontially make up for the caveats in your sample selection). 
+
+
+
+These things should be addressed in your notebook, and in your presentation and we'll be paying close attention to it in Sprint 3.
+
+
+
+
+
+GithHub Repository: Your GitHub Repo should be up to date and reflect the current state of your project.
+
+README file: Your project will mature during the course of Sprint 3, and your README should reflect this. Your README should reflect the "final" state of your project and cover all pertinent details.
+
+Jupyter Notebook: Using the baseline models and model evaluation strategy you built in sprint 2, you will springboard into advanced model building, optimization, evaluation and interpretation.
+
+Slides: Prepare and deliver a 5-min presentation re-introducing your project by addressing the points listed below.
+
+
+
+
+We suggest breaking up your presentation in broadly 5 slides:
+
+A non-technical overview of the problem statement, your proposed solution, and an estimate of the potential impact of your solution.
+
+A high level overview of the dataset and preprocessing approach
+
+A key insight about your problem spaced uncovered through EDA or modelling
+
+Model comparison and interpretation (what did all your modeling work amount to?)
+
+A product demo (Dashboard, Web App) or designs for such a product
+
+Your README file, final versions of Jupyter notebooks and a PDF of your slides should be commited to your remote repository. In addition, they must be submitted to Synapse. Note that Synapse submission should contain all the capstone notebooks from EDA to Final Modelling. The files should be put into a zip file following the naming convention 
+
+FirstName_LastName_Capstone_Sprint3.zip.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+duplicate amount yes or no, convert to binary
+
+duplicate_amt - same set-magic ? 
+
+
+
+
+
+check for multi colinarity
+and coorelations
+
+data leakage
+
+VIF - variance inflation factor
+
+
+
+
+investigate why model is accurate
+
+
+
+hypothesis test ? 
