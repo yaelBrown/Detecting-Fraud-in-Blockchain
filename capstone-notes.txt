@@ -1,6 +1,6 @@
 Create capstone environment for conda
-Add price to dataset 
-Create feature for (satoshi x btc_usd_price)
+x Add price to dataset 
+x Create feature for (satoshi x btc_usd_price)
 
 
 
