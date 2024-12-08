@@ -34,18 +34,15 @@ After attaining the datasets, since there are a large number of transactions the
 Most of the transactions were on the first day. This would be because of the primary elections in the states. Typically political events in the states affect investor sentiment and that would lead to an increase of transactions for that day. 
 
 ## Describe your results
-The models used would be a classification model. However running a simple Logistic Regression model with the target variable being the flag column 'is_possible_fraud' resulted in a 99% accuracy. 
+After using a Logistic Regression model and doing hyperparameter tuning. Was able to get accuracy of 0.9999243570347958%. Where in the confusion matrix if inaccurately predicted 2 transactions in the sample dataset as fraudulent when they were not. 
 
 <p align="center">
-  <img src="./assets/images/figures/confusion_matrix.png">
+  <img src="./assets/images/figures/final_model_confusion_matrix.png">
 </p>
-
-Ideally the model would need to classify if sender_address, destination_address, and amount of satoshi's could predict if this is possible fraud. So a multi-variable classification model would need to be researched to handle this or possibly running multiple logistic regression models on the different target variables. Further research would need to be conducted. 
 
 ## Party!
 Yay, party !
 <p align="center">
   <img src="./assets/images/gains-moon.gif"><br/>
   <img src="./assets/images/funny_fall.gif">
-  <img src="./assets/images/ponke-ponkesol.gif">
 </p>
